@@ -1,0 +1,28 @@
+{
+  "name": "sqlite-express",
+  "version": "0.0.1",
+  "description": "expressJS and SQLite",
+  "main": "main.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x7md/sqlite-express.git"
+  },
+  "author": "x7md",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x7md/sqlite-express/issues"
+  },
+  "homepage": "https://github.com/x7md/sqlite-express#readme",
+  "dependencies": {
+    "express": "^5.0.0-beta.1",
+    "sequelize": "^6.16.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
